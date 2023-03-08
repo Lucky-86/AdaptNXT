@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .container-fluid{
+            width: 85%;
+            height: 10vh;
+        }
+        .main{
+            width: 1250px;
+            height: 650px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body style="background-color: #BDCDD6;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid" style="background-color: #6096B4;">
+          <a class="navbar-brand" href="#">Staples</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Deals</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Lists</a></li>
+                  <li><a class="dropdown-item" href="#">Help</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">about</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sign in</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <br>
+      <br>
+      <div class="main">
+        
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://fdn2.gsmarena.com/vv/pics/infinix/infinix-smart-hd-2021-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Infinix Smart HD 2021</h5>
+          <input type="hidden" name="pname" value="Infinix Smart HD 2021">
+          <input type="hidden" name="pcode" value="901-745215">
+          <input type="hidden" name="price" value="13,999">
+          <input type="hidden" name="pdescription" value="Released 2020, December 24
+            195g, 9.8mm thickness
+            Android 10, XOS 6.2
+            32GB storage, microSDXC">
+          <p class="card-text">Released 2020, December 24
+            195g, 9.8mm thickness
+            Android 10, XOS 6.2
+            32GB storage, microSDXC
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745215</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 10%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 13,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/g/g/3/-original-imaggbrccwsnygar.jpeg?q=70" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" name="pname" value="Google Pixel 6a">Google Pixel 6a (Chalk, 128 GB)</h5>
+          <input type="hidden" name="pname" value="Infinix Smart HD 2021">
+          <input type="hidden" name="pdescription" value=" 6 GB RAM | 128 GB ROM | 15.6 cm (6.14 inch) Full HD+ Display">
+          <input type="hidden" name="pcode" value="901-745211">
+          <input type="hidden" name="price" value="28,999">
+          <p class="card-text">
+            6 GB RAM | 128 GB ROM | 15.6 cm (6.14 inch) Full HD+ Display
+    
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745211</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 10%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 28,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/s/y/0/-original-imaggbrbxkqr3v3u.jpeg?q=70" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" >Google Pixel 6a (Charcoal, 128 GB)</h5>
+          <input type="hidden" name="pname" value="Google Pixel 6a">
+          <input type="hidden" name="pdescription" value=" 6 GB RAM | 128 GB ROM
+          115.6 cm
+          12.2MP| 8MP Front Camera">
+          <input type="hidden" name="pcode" value="901-745200">
+          <input type="hidden" name="price" value="27,999">
+          <p class="card-text">
+            6 GB RAM | 128 GB ROM
+            115.6 cm
+            12.2MP| 8MP Front Camera
+            <div class="col-auto body-xxs pl-2 LEffortFindNum" >Item #: 901-745200</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 15%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 27,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+
+    </div>
+
+    <br>
+      <br>
+      <div class="main">
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://fdn2.gsmarena.com/vv/pics/infinix/infinix-smart-hd-2021-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" >Infinix Smart HD 2022</h5>
+          <input type="hidden" name="pname" value="Infinix Smart HD 2022">
+          <input type="hidden" name="pdescription" value="Released 2020, December 24
+          195g, 9.8mm thickness
+          Android 10, XOS 6.2
+          32GB storage, microSDXC">
+          <input type="hidden" name="pcode" value="901-745315">
+          <input type="hidden" name="price" value="25,999">
+          <p class="card-text" >Released 2020, December 24
+            195g, 9.8mm thickness
+            Android 10, XOS 6.2
+            32GB storage, microSDXC
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745315</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 5%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 25,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/g/g/3/-original-imaggbrccwsnygar.jpeg?q=70" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Google Pixel 7a (Chalk, 128 GB)</h5>
+          <input type="hidden" name="pname" value="Google Pixel 7a">
+          <input type="hidden" name="pdescription" value="6 GB RAM | 128 GB ROM | 15.6 cm (6.14 inch) Full HD+ Display">
+          <input type="hidden" name="pcode" value="901-745341">
+          <input type="hidden" name="price" value="33,999">
+          <p class="card-text">
+            6 GB RAM | 128 GB ROM | 15.6 cm (6.14 inch) Full HD+ Display
+    
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745341</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 10%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 33,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/s/y/0/-original-imaggbrbxkqr3v3u.jpeg?q=70" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Google Pixel 8a (Charcoal, 128 GB)</h5>
+          <input type="hidden" name="pname" value="Google Pixel 8a (Charcoal, 128 GB)">
+          <input type="hidden" name="pdescription" value=" 6 GB RAM | 128 GB ROM
+          115.6 cm
+          12.2MP| 8MP Front Camera">
+          <input type="hidden" name="pcode" value="901-745437">
+          <input type="hidden" name="price" value="65,999">
+          <p class="card-text">
+            6 GB RAM | 128 GB ROM
+            115.6 cm
+            12.2MP| 8MP Front Camera
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745437</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 15%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 65,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+
+    </div>
+
+    <br>
+      <br>
+      <div class="main">
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://fdn2.gsmarena.com/vv/pics/infinix/infinix-smart-hd-2021-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MI Smart HD 2021</h5>
+          <input type="hidden" name="pname" value="MI Smart HD 2021">
+          <input type="hidden" name="pdescription" value="Released 2020, December 24
+          195g, 9.8mm thickness
+          Android 10, XOS 6.2
+          32GB storage, microSDXC">
+           <input type="hidden" name="pcode" value="901-745244">
+          <input type="hidden" name="price" value="10,999">
+          <p class="card-text">Released 2020, December 24
+            195g, 9.8mm thickness
+            Android 10, XOS 6.2
+            32GB storage, microSDXC
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745244</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 10%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 10,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/g/g/3/-original-imaggbrccwsnygar.jpeg?q=70" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Google Pixel 6a (Chalk, 128 GB)</h5>
+          <input type="hidden" name="pname" value="Google Pixel 6a (Chalk, 128 GB)">
+          <input type="hidden" name="pdescription" value="6 GB RAM | 128 GB ROM | 15.6 cm (6.14 inch) Full HD+ Display">
+          <input type="hidden" name="pcode" value="901-745211">
+          <input type="hidden" name="price" value="28,999">
+          <p class="card-text">
+            6 GB RAM | 128 GB ROM | 15.6 cm (6.14 inch) Full HD+ Display
+    
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745211</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 10%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 28,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/s/y/0/-original-imaggbrbxkqr3v3u.jpeg?q=70" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">realme Pixel 6a (Charcoal, 128 GB)</h5>
+          <input type="hidden" name="pname" value="realme Pixel 6a (Charcoal, 128 GB)">
+          <input type="hidden" name="pdescription" value="6 GB RAM | 128 GB ROM
+          115.6 cm
+          12.2MP| 8MP Front Camera">
+          <input type="hidden" name="pcode" value="901-745456">
+          <input type="hidden" name="price" value="66,999">
+          <p class="card-text">
+            6 GB RAM | 128 GB ROM
+            115.6 cm
+            12.2MP| 8MP Front Camera
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745456</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 15%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 66,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+
+    </div>
+
+    <br>
+      <br>
+      <div class="main">
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://fdn2.gsmarena.com/vv/pics/infinix/infinix-smart-hd-2021-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iphone Smart HD 2021</h5>
+          <input type="hidden" name="pname" value="Iphone Smart HD 2021">
+          <input type="hidden" name="pdescription" value="Released 2020, December 24
+          195g, 9.8mm thickness
+          Android 10, XOS 6.2
+          32GB storage, microSDXC">
+          <input type="hidden" name="pcode" value="901-745894">
+          <input type="hidden" name="price" value="85,999">
+          <p class="card-text">Released 2020, December 24
+            195g, 9.8mm thickness
+            Android 10, XOS 6.2
+            32GB storage, microSDXC
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745894</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 25%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 85,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/g/g/3/-original-imaggbrccwsnygar.jpeg?q=70" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Redmi 6a (Chalk, 128 GB)</h5>
+          <input type="hidden" name="pname" value="Redmi 6a (Chalk, 128 GB)">
+          <input type="hidden" name="pdescription" value=" 6 GB RAM | 128 GB ROM | 15.6 cm (6.14 inch) Full HD+ Display">
+          <input type="hidden" name="pcode" value="901-745211">
+          <input type="hidden" name="price" value="15,999">
+          <p class="card-text">
+            6 GB RAM | 128 GB ROM | 15.6 cm (6.14 inch) Full HD+ Display
+    
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-745211</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 10%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 15,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+
+      <div class="card" style="width: 18rem; height: 560px;">
+        <form action="addtocart" method="post">
+        <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/s/y/0/-original-imaggbrbxkqr3v3u.jpeg?q=70" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iphone 11(Charcoal, 128 GB)</h5>
+          <input type="hidden" name="pdescription" value="6 GB RAM | 128 GB ROM
+          115.6 cm
+          12.2MP| 8MP Front Camera">
+          <input type="hidden" name="pname" value="Iphone 11(Charcoal, 128 GB)">
+          <input type="hidden" name="pcode" value="901-746540">
+          <input type="hidden" name="price" value="55,999">
+          <p class="card-text">
+            6 GB RAM | 128 GB ROM
+            115.6 cm
+            12.2MP| 8MP Front Camera
+            <div class="col-auto body-xxs pl-2 LEffortFindNum">Item #: 901-746540</div>
+            <div class="pricing-wrap  ">
+                <div class="mb-1 body-xxs d-flex fg-jet-tint savings-price-section align-items-center flex-wrap">
+                    
+                        <span class="text-nowrap text-right elp-percentage fg-jet">Save 15%</span>
+                </div>
+
+
+                <div class="mb-1 h6 savings-highlight-wrap">
+                    <span class="savings-highlight price-size mb-0 text-black"> Rs 55,999 </span>
+                </div>
+            </div></p>
+            <button type="submit">Add to cart</button>
+        </div>
+    </form>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
